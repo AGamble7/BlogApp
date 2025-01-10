@@ -1,0 +1,30 @@
+<%= form_with model: @blog_post, data: {turbo: false} do |form| %>
+<div>
+  <%= form.label :title %>
+  <%= form.text_field :title, class: "border border-gray-500" %>
+</div>
+
+<div>
+  <% @blog_post.errors[:title].each do |e| %>
+  <p>
+    <%= e.inspect%>
+  </p>
+  <%end%>
+</div>
+
+<div>
+  <%= form.label :body %>
+  <%= form.text_field :body, class: "border border-gray-500 " %>
+</div>
+
+<div>
+  <% @blog_post.errors[:body].each do |e| %>
+  <p>
+    <%= e.inspect%>
+  </p>
+  <%end%>
+</div>
+
+<%= form.button class: "text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2" %>
+
+<% end %>
