@@ -39,6 +39,18 @@ jobs:
       # Add or replace test runners here
       - name: Run tests
         run: bin/rake
+      - name: Set up PostgreSQL
+  uses: harmon758/postgresql-action@v1
+  with:
+    postgresql version: '13'
+    postgresql db: blog_app_test
+    postgresql user: postgres
+    postgresql password: postgres
+
+- name: Set up database
+  run: bin/rails db:schema:load
+
+        
 
   lint:
     runs-on: ubuntu-latest
