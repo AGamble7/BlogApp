@@ -1,24 +1,19 @@
 # README
+# 🚀 Automated Blog Post App with Terraform, Docker & GitHub Actions  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 📌 Project Overview  
+This project is a **containerized blog post application** that is **automated using Terraform and deployed via GitHub Actions**. It follows **DevSecOps best practices**, ensuring secure and scalable deployments.  
 
-Things you may want to cover:
+## 🔹 Features  
+✅ **Blog Application**: A simple blog post app built for demonstration purposes.  
+✅ **Dockerized Setup**: Runs in **Docker containers** for seamless portability.  
+✅ **Infrastructure as Code (IaC)**: Uses **Terraform** to provision cloud infrastructure.  
+✅ **CI/CD Pipeline**: Automates deployments using **GitHub Actions**.  
+✅ **Secure Deployment**: Implements security best practices in **Terraform & CI/CD workflows**.  
 
-* Ruby version
+## 🛠️ Technologies Used  
+- **Docker** – Containerized application for easy deployment.  
+- **Terraform** – Infrastructure as Code to manage cloud resources.  
+- **GitHub Actions** – CI/CD automation for seamless deployments.  
+- **AWS/GCP/Azure (optional)** – Hosting the application.  
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
