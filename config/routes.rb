@@ -11,8 +11,9 @@ Rails.application.routes.draw do
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
   # Defines the root path route ("/")
-  # on the left side of the # is the controller name and on the right side is the hash name is the action name  also use the underscore version of it
-    root  "blog_post#home"
+# on the left side of the # is the controller name and on the right side is
+the hash name is the action name also use the underscore version of it
+    root "blog_post#home"
     get "/AboutMe", to: "about_me#index", as: "about_me"
     get "/BlogPost/new", to: "blog_post#new", as: "new"
     get "/BlogPosts", to: "blog_post#index"
