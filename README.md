@@ -15,5 +15,5 @@ This project is a **containerized blog post application** that is **automated us
 - **Docker** – Containerized application for easy deployment.  
 - **Terraform** – Infrastructure as Code to manage cloud resources.  
 - **GitHub Actions** – CI/CD automation for seamless deployments.  
-- **AWS/GCP/Azure (optional)** – Hosting the application.  
+- **AWS** – Hosting the application.  
 
