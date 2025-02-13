@@ -12,15 +12,4 @@ This project automates the deployment of a Dockerized Ruby on Rails application 
 ✅ Continuous Deployment: **GitHub Actions** automates Docker image build & deployment.
 ✅ Security & Scalability: Uses **AWS Security Groups** to secure the access to the site.
 
-🔺 Deployment Steps
-1️⃣ Clone the repository:
-git clone https://github.com/your-username/rails-aws-terraform.git
-cd rails-aws-terraform
-
-2️⃣ Initialize and apply Terraform:
-terraform init
-terraform apply -auto-approve
-
-3️⃣ Access the Rails app via the EC2 public IP:
-http://your-ec2-ip:3000 
 
