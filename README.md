@@ -1,19 +1,26 @@
 # README
-# 🚀 Automated Blog Post App with Terraform, Docker & GitHub Actions  
+#  🚀 Deploying a Ruby on Rails Blog App on AWS EC2 with Terraform, Docker & GitHub Actions
 
 ## 📌 Project Overview  
-This project is a **containerized blog post application** that is **automated using Terraform and deployed via GitHub Actions**. It follows **DevSecOps best practices**, ensuring secure and scalable deployments.  
+This project automates the deployment of a Dockerized Ruby on Rails application on AWS EC2 using Terraform for infrastructure provisioning. It includes setting up an EC2 instance, configuring security groups, installing Docker, and running the Rails app inside a container.
 
-## 🔹 Features  
-✅ **Blog Application**: A simple blog post app built for demonstration purposes.  
-✅ **Dockerized Setup**: Runs in **Docker containers** for seamless portability.  
-✅ **Infrastructure as Code (IaC)**: Uses **Terraform** to provision cloud infrastructure.  
-✅ **CI/CD Pipeline**: Automates deployments using **GitHub Actions**.  
-✅ **Secure Deployment**: Implements security best practices in **Terraform & CI/CD workflows**.  
 
-## 🛠️ Technologies Used  
-- **Docker** – Containerized application for easy deployment.  
-- **Terraform** – Infrastructure as Code to manage cloud resources.  
-- **GitHub Actions** – CI/CD automation for seamless deployments.  
-- **AWS** – Hosting the application.  
+## 🛠️ Key Features
+✅ Infrastructure as Code (IaC): Uses **Terraform** to provision **AWS EC2**, Security Groups, and networking.
+✅ Containerized Deployment: Dockerized Ruby on Rails app for easy deployment & portability.
+✅ Automated Setup: EC2 User Data script installs **Docker** & pulls the latest container.
+✅ Continuous Deployment: **GitHub Actions** automates Docker image build & deployment.
+✅ Security & Scalability: Uses **AWS Security Groups** to secure the access to the site.
+
+🔺 Deployment Steps
+1️⃣ Clone the repository:
+git clone https://github.com/your-username/rails-aws-terraform.git
+cd rails-aws-terraform
+
+2️⃣ Initialize and apply Terraform:
+terraform init
+terraform apply -auto-approve
+
+3️⃣ Access the Rails app via the EC2 public IP:
+http://your-ec2-ip:3000 
 
