@@ -2,7 +2,7 @@ ruby "~> 3.0"
 source "https://rubygems.org"
 gem "nokogiri", "~> 1.15"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.1"
+gem "rails", "~> 8.0.2"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use sqlite3 as the database for Active Record
